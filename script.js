@@ -27,5 +27,4 @@ function createTable() {
   }
 }
 
-// Add event listener to button
-document.querySelector("button").addEventListener("click", createTable);
+// No need to add event listener because HTML already calls createTable()
